@@ -124,6 +124,9 @@ body {
 .header__area-nav {
   flex: 1;
 }
+.header__logo {
+  height: 5rem;
+}
 .header__area-list {
   margin-left: 1rem;
   position: relative;
