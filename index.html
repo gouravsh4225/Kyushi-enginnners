@@ -15,7 +15,7 @@
         <div class="container">
           <div class="info-header-area">
             <p class="info__header-tel mb-10">
-              <i class="fa fa-phone"></i>
+              <i class="fas fa-phone-square-alt"></i>
               <a href="tel:+918627882351" class="ml-10"> +918627882351</a>
             </p>
             <p class="info__header-mail mb-10">
@@ -60,6 +60,11 @@
                 </ul>
               </nav>
             </div>
+            <div class="naviagtion__area-mobile">
+              <div class="navigation__icon">
+                <i class="fas fa-bars" id="bar_icon"></i>
+              </div>
+            </div>
             <div class="header__area-actions">
               <a
                 class="ke-btn text-decoration-none"
@@ -68,6 +73,14 @@
                 Get a quote
               </a>
             </div>
+          </div>
+          <div class="navigation__list">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./Pages/About.html">About</a></li>
+              <li><a href="./Pages/Service.html">Service</a></li>
+              <li><a href="./Pages/Contact.html">Contact</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -158,9 +171,11 @@
       <!--Service Section  end-->
       <section class="about-company-area service-provider-area">
         <div class="container">
-          <h3>About Company</h3>
-          <p>Deliver inovative Industrial solution</p>
-          <p>
+          <h2 class="about-company-heading">About Company</h2>
+          <p class="about-company-tag-line">
+            Deliver inovative Industrial solution
+          </p>
+          <p class="about-company-para-text">
             We are Kyushi Engineers, take this opportunity to introduce ourself
             as a Turnkey solution provider for moduler clean room paritions and
             ceiling, clean room door,fire door,cold room,CA room,Pre-fabricating
@@ -169,6 +184,94 @@
           </p>
         </div>
       </section>
+      <!--Address section start-->
+      <section class="address__area service-provider-area">
+        <div class="container">
+          <div class="d-flex address__row">
+            <div class="address">
+              <div class="address__icon">
+                <i class="fas fa-globe-europe"></i>
+              </div>
+              <h3 class="address__heading">Our Location</h3>
+              <p class="address__location">
+                228-229, village Theda , P.O Lodhimajra ,Baddi ,
+              </p>
+              <p class="address__sub-location">Solan ,HP , India</p>
+            </div>
+            <div class="address">
+              <div class="address__icon">
+                <i class="far fa-clock"></i>
+              </div>
+              <h3 class="address__heading">Opening hour</h3>
+              <p class="address__location">Mon-sat (9.00-18.00)</p>
+              <p class="address__sub-location">Sun <span>(Closed)</span></p>
+            </div>
+            <div class="address">
+              <div class="address__icon">
+                <i class="fas fa-envelope-open-text"></i>
+              </div>
+              <h3 class="address__heading">Drop a message</h3>
+              <p class="address__location">info@kyushiengineers.com</p>
+              <p class="address__sub-location"><span> +918627882351 </span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Address section end-->
+      <!--footer start here -->
+      <footer class="ke-footer">
+        <div class="container">
+          <div class="footer__area d-flex">
+            <img
+              src="https://picsum.photos/400/300"
+              alt="footer_logo"
+              class="ke__footer-image"
+              loading="lazy"
+            />
+            <div class="footer_solution_list">
+              <h3 class="footer_solution-heading">Solution</h3>
+              <ul class="footer_solution-lists">
+                <li class="footer_solution-item">
+                  Clean Rooms Partition / Doors
+                </li>
+                <li class="footer_solution-item">Pre-Engineering Buildings</li>
+                <li class="footer_solution-item">Pre-Fab Buildings</li>
+                <li class="footer_solution-item">
+                  Cold Rooms and Cold Storage
+                </li>
+                <li class="footer_solution-item">Engineering Solutions</li>
+                <li class="footer_solution-item">Civil Works</li>
+              </ul>
+            </div>
+            <div class="footer_solution_list">
+              <h3 class="footer_solution-heading">Factory Office</h3>
+              <ul class="footer_solution-lists">
+                <li class="footer_solution-address">Baddi - India</li>
+                <li class="footer_solution-item">
+                  228-229, village Theda , P.O
+                </li>
+                <li class="footer_solution-item">
+                  Lodhimajra ,Baddi ,Solan ,HP , India
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--footer end here -->
+      <footer class="copy-right__area">
+        <div class="container">
+          <div class="copy-right__para-text">
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved by
+            <span>Kyushi Engineers</span>
+          </div>
+        </div>
+      </footer>
     </main>
+    <script src="./js/main.js"></script>
   </body>
 </html>
